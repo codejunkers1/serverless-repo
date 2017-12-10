@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Chathura|Gruppo|Inconsolata|Open+Sans+Condensed:300|Poiret+One|Sirin+Stencil');
+html{
+	font-size: 1em;
+}
+body{
+	font-size: 1em;
+	background-color: #1c1b1b;
+
+}
+h1,h2,h3,h4,h5,h6{
+}
+h1{
+	font-size: 2em;
+}
+h2{
+	font-size: 1.8em;
+}
+h3{
+	font-size: 1.25em;
+}
+h4{
+	font-size: 1em;
+}
+h5{
+	font-size: 0.75em;
+}
+h6{
+}
+p{
+	font-size: 1.1em;
+}
+a{
+	font-size: 1.1em;
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover{
+	text-decoration:none;
+}
+a:active{
+	text-decoration: none;
+
+}
+a:visited,a:focus{
+	text-decoration: none !important;
+}
+p{
+	text-align: justify;
+}
+/*common styles*/
+.no-pad{
+	padding: 0;
+}
+.pad-10{
+	padding: 0.6em 0em;
+}
+.no-mar{
+	margin:0;
+}
+
+.full-screen{
+	height: 100vh;
+	width: 100vw;
+	overflow:hidden;
+	display: flex;
+	align-items: center;
+}
+.screen{
+	padding: 2em 0em;
+	padding-top: 8em;
+}
+.screen hr{
+	border-color: rgba(76,76,76,1);
+}
+.my-name{
+	font-size: 6em;
+	color: white;
+	letter-spacing: 5px;
+	/*font-family: 'Open Sans Condensed', sans-serif;*/
+	/*font-family: 'Inconsolata', monospace;*/
+	font-family: 'Poiret One', cursive;
+	/*font-family: 'Gruppo', cursive;*/
+	/*font-family: 'Sirin Stencil', cursive;*/
+	/*font-family: 'Chathura', sans-serif;*/
+	margin:0.5em 0em;
+	text-align: right;
+}
+.my-name-small{
+	font-size: 2em;
+	color: white;
+	letter-spacing: 5px;
+	font-family: 'Poiret One', cursive;
+	margin:0.5em 0em;
+}
+.prof{
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 3px;
+	color: #d3d3d3;
+}
+.nav{
+	display: inline-block;
+	list-style: none;
+	float: right;
+}
+.nav>li{
+	float: right;
+}
+.screen .nav {
+	float: none;
+	margin:0.5em;
+	/*border:1px dashed white;
+	border-right: none;
+	border-left: none;
+	border-color: rgba(76,76,76,1);*/
+
+}
+.nav>li>a{
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 0.9em;
+	letter-spacing: 2px;
+	margin:1.5em 0em;
+	padding: 0em 1em;
+}
+.nav>li>a:hover,.nav>li>a:active,.nav>li>a:focus{
+	background-color: rgba(0,0,0,0);
+}
+.br{
+	border-right: 0.5px solid white;
+	border-color: rgba(76,76,76,1);
+}
+.w-text {
+	font-family: 'Poiret One', cursive;
+	color: #939393;
+	font-size: 1.3em;
+	letter-spacing: 3px;
+	padding: 1em 1em;
+}
+.des{
+	font-family: 'Poiret One', cursive;
+	color: #939393;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	line-height: 23px;
+}
+.my-image{
+	filter: grayscale(1);
+	width: 100%;
+	transition: 1s ease-in-out;
+	border-radius: 1px;
+}
+.my-image:hover{
+	filter: grayscale(0);
+}
+.project-list{
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+.project-list li{
+	float: left;
+	width: 33%;
+	padding:0.5em;
+}
+.project{
+	width: 100%;
+	border:1px solid #2e2c2c;
+	border-bottom-width: 3px;
+}
+.project img{
+	filter:grayscale(1);
+	transition: 1s ease-in-out;
+	cursor: pointer;
+}
+.project img:hover{
+	filter: grayscale(0);
+}
+.project-info{
+	padding:1em;
+	color:#939393;
+	text-align: center;
+}
+.project-info p, .project-info a{
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.project-info p{
+	font-size: 1em;
+	color:white;
+}
+.project-info a{
+	color: #939393;
+	font-size: 0.8em;
+}
+
